@@ -6,15 +6,10 @@ def carre():
 #		x = float(x)
 #		result1 = x ** 2
 #		print (f"le resultat est {result}")
-		a = input ("choisissez un premier argument:")
-		a = int (a)
-
-		b = input ("choissisez un deuxième argument:")
-		b = int (b)
-
+		a = int(input("choisissez un premier argument:"))
+		b = int(input("choissisez un deuxième argument:"))
 		res = f.puissance(a, b)
 
 		print (f"le résultat est {res}")
 
-carre()	
-	
+carre()
